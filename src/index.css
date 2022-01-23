@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: SimHei,
+          -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 构造最外层框架用到的 CSS */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#app-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #555;
+}
+#main-title {
+  box-sizing: border-box;
+  width: 55%;
+  height: 10%;
+  float: left;
+  color: aliceblue;
+  background-color: #292991;
+  border: 1px solid #555;
+}
+#map-2d {
+  box-sizing: border-box;
+  width: 55%;
+  height: 70%;
+  float: left;
+  background-color: #23171b;
+  border: 1px solid #555;
+}
+#map-1d {
+  box-sizing: border-box;
+  width: 45%;
+  height: 50%;
+  float: right;
+  background-color: azure;
+  border: 1px solid #555;
+}
+#elite-type-setting {
+  box-sizing: border-box;
+  width: 45%;
+  height: 10%;
+  float: right;
+  background-color: #d9e9ff;
+  border: 1px solid #555;
+}
+#map-setting {
+  box-sizing: border-box;
+  width: 45%;
+  height: 20.0%;
+  float: right;
+  background-color: #e2eeff;
+  border: 1px solid #555;
+}
+#timeline {
+  box-sizing: border-box;
+  width: 100%;
+  height: 20%;
+  float: right;
+  background-color: #e2eeff;
+  border: 1px solid #555;
+}
+#people-alive-plot {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;    /* 防止被撑开! */
+}
+#big-events-plot {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;    /* 防止被撑开! */
+}
